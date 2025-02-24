@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Table</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .full-day {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Advance HTML Table In Hindi</h2>
+
+    <table>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">Seminar Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Start</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td>08:00 AM</td>
+            <td>05:00 PM</td>
+            <td>Introduction</td>
+        </tr>
+        <tr>
+            <td>08:00 AM</td>
+            <td>11:00 PM</td>
+            <td>Uses</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tuesday</td>
+            <td>11:00 AM</td>
+            <td>02:00 PM</td>
+            <td>Learn</td>
+        </tr>
+        <tr>
+            <td>02:00 PM</td>
+            <td>08:00 PM</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>Wednesday - Friday</td>
+            <td colspan="2" class="full-day">Full Day</td>
+            <td>Practical</td>
+        </tr>
+        <tr>
+            <td>Saturday - Sunday</td>
+            <td>11:00 AM</td>
+            <td>05:00 PM</td>
+            <td>Extra Class</td>
+        </tr>
+    </table>
+
+</body>
+</html>
